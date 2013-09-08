@@ -1,0 +1,83 @@
+/* CSS Basic Document */
+@font-face {
+    font-family: 'VoltaireRegular';
+    src: url('Voltaire-Regular-webfont.eot');
+    src: url('Voltaire-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Voltaire-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+background-image: url(../images/blackloz.png);
+background-repeat:repeat;
+
+}
+
+h1 {
+	font-family: 'VoltaireRegular','Wendy One', sans-serif;
+	font-size:40px;
+	text-align: center;
+	
+}
+
+#header{
+	background:#CCCCCC;
+	background-repeat: repeat;
+	height:100px;
+	padding: 25px 0 25px 0;
+}
+
+.toc{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+#content {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	padding: 10px;
+	opacity:0.8;
+	width:75%;
+	margin:0px auto;
+	text-align:left;
+	border:1px solid #000;
+	-moz-border-radius: 1em 4em 1em 4em;
+	border-radius: 1em 4em 1em 4em;
+
+	
+}
+
+ul { 
+	list-style-type: square;
+}
+
+a:link {color:#090;
+	text-decoration:none;
+}    
+a:visited {color:#F00;} 
+a:hover {color:#999;}   
+a:active {color:#FC0;} 
+
+#footer{
+	height: 125px;
+	background-image: url(../images/clothlike.png);
+	background-repeat: repeat;
+	padding:2px;
+	margin:0px auto;
+	text-align:center;
+	
+}
+
+IMG.displayed 
+{
+    display: inline-block;
+  	padding:3px;
+	margin:0px auto;
+}
+#date2{
+    font-size: 10px;
+    color: red;
+	padding: 10px;
+}
